@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÀI 6</title>
+</head>
+<body>
+    <main>
+        <form action="http://wwww./myserver" method="post">
+            <table>
+                <tr>
+                    <td><label for="fullname">Họ và tên :</label></td>
+                    <td><input type="text" name="fullname" id="fullname"></td>
+                </tr>
+                <tr>
+                    <td><label for="Ngày sinh">Ngày sinh :</label></td>
+                    <td><input type="date" name="Ngày sinh" id="Ngày sinh"></td>
+                </tr>
+                <tr>
+                    <td><label for="Giới tính">Giới tính :</label></td>
+                    <td><input type="radio" name="Giới tính" value="Nam">
+                        <label>Nam</label>
+                        <input type="radio" name="Giới tính" value="Nữ">
+                        <label>Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Số điện thoại">Số điện thoại :</label></td>
+                    <td><input type="tel" name="Số điện thoại" id="Số điện thoại" pattern="0[0-9]{9}"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email</label></td>
+                    <td><input type="email" name="Email" id="Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="tên công ty">Tên công ty :</label></td>
+                    <td><input type="text" name="tên công ty" id="tên công ty"></td>
+                </tr>
+                <tr>
+                    <td><label for="Vai trò trong công ty">Vai trò trong công ty :</label></td>
+                    <td><select name="Vai trò trong công ty" id="Vai trò trong công ty">
+                        <option selected value="Giám đốc điều hành (CEO)">Giám đốc điều hành (CEO)</option>
+                        <option value="Nhân viên">Nhân viên</option>
+                        <option value="Quản lý">Quản lý</option>
+                        <option value="Giám đốc">Giám đốc</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="Quy mô công ty">Quy mô công ty :</label></td>
+                    <td><select name="Quy mô công ty" id="Quy mô công ty">
+                        <option selected value="Doanh nghiệp nhỏ">Doanh nghiệp nhỏ</option>
+                        <option value="Doanh nghiệp lớn">Doanh nghiệp lớn</option>
+                        <option value="Doanh nghiệp trung bình">Doanh nghiệp trung bình</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="Ngành nghề công ty">Ngành nghề công ty :</label></td>
+                    <td><input type="text" name="Ngành nghề công ty" id="Ngành nghề công ty"></td>
+                </tr>
+                <tr>
+                    <td><label for="Lý do tham gia câu lạc bộ">Lý do tham gia câu lạc bộ :</label></td>
+                    <td><textarea name="Lý do tham gia câu lạc bộ" id="Lý do tham gia câu lạc bộ"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="Kinh nghiệm lãnh đạo">Kinh nghiệm lãnh đạo :</label></td>
+                    <td><textarea name="Kinh nghiệm lãnh đạo" id="Kinh nghiệm lãnh đạo"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="Mục tiêu khi tham gia câu lạc bộ">Mục tiêu khi tham gia câu lạc bộ :</label></td>
+                    <td><textarea name="Mục tiêu khi tham gia câu lạc bộ" id="Mục tiêu khi tham gia câu lạc bộ"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="Chương trình sự kiện mong muốn tham gia ">Chương trình sự kiện mong muốn tham gia :</label></td>
+                    <td>
+                        <input type="checkbox" name="Chương trình sự kiện mong muốn tham gia" value="Networking">
+                        <label>Networking</label>
+                        <input type="checkbox" name="Chương trình sự kiện mong muốn tham gia" value="Workshop">
+                        <label>Workshop</label>
+                        <input type="checkbox" name="Chương trình sự kiện mong muốn tham gia"
+                        value="Hội thảo">
+                        <label>Hội thảo</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Đăng ký nhận bản tin">Đăng ký nhận bản tin :</label></td>
+                    <td><input type="checkbox" name="Đăng ký nhận bản tin" id="Đăng ký nhận bản tin" value="Có">
+                    <label>Có</label></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Đăng ký hội viên"></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+</body>
+</html>

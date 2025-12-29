@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tổng hợp</title>
+</head>
+<body>
+    <header>
+        <h2>Đăng ký sinh viên mới</h2>
+    </header>
+    <main>
+        <form action="http://wwww.myserver" method="post">
+            <label for="fullname">Họ và tên :</label>
+            <input placeholder="Vũ Xuân Bách" type="text" name="fullname" id="fullname" value="Vũ Xuân Bách"><br>
+            <br>
+
+            <label for="Ngày sinh">Ngày sinh đầy đủ :</label>
+            <input type="date" name="Ngày sinh" id="Ngày sinh" value="2007-11-09"><br><br>
+
+            <label for="Tháng và năm nhập học">Tháng và năm nhập học :</label>
+            <input type="month" name="Tháng và năm nhập học" id="Tháng và năm nhập học" value="2025-09"><br><br>
+
+            <label for="Thời gian học">Thời gian học :</label>
+            <input type="time" name="Thời gian học" id="Thời gian học "  value="13:00"><br><br>
+
+            <label for="Giới tính">Giới tính :</label>
+            <input type="radio" name="Giới tính" id="Nam" value="Nam">
+            <label for="Nam">Nam</label>
+            <input type="radio" name="Giới tính" id="Nữ" value="Nữ">
+            <label for="Nữ">Nữ</label>
+            <input type="radio" name="Giới tính" id="Khác" value="Khác" checked>
+            <label for="Khác">Khác</label>
+            <br><br>
+
+            <label for="Email sinh viên">Email sinh viên :</label>
+            <input type="email" name="Email sinh viên" id="Email sinh viên" placeholder="Vuxuanbach46@ptit.com" value="Sinhvien@university.edu.vn">
+            <br><br>
+
+            <label for="Mật khẩu">Mật khẩu :</label>
+            <input type="password" name="Mật khẩu" id="Mật khẩu" value="Bachabc"><br><br>
+
+            <label for="Mục tiêu học tập">Mục tiêu học tập :</label>
+            <textarea name="Mục tiêu học tập" id="Mục tiêu học tập" cols="30" rows="5">Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội</textarea><br><br>
+
+            <p>
+                <label for="cơ sở">Cơ sở :</label>
+                <select name="cơ sở" id="cơ sở">
+                    <option value="Hà Nội">Hà Nội</option>
+                    <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                    <option value="Đà Nẵng">Đà Nẵng</option>
+                </select>
+            </p>
+            <p>
+                <label for="Ảnh thẻ sinh viên">Ảnh thẻ sinh viên :</label>
+                <input type="file" name="Ảnh thẻ sinh viên" id="Ảnh thẻ sinh viên">
+            </p>
+            <p>
+                <label for="Môn học yêu thích">Môn học yêu thích :</label>
+                <input type="checkbox" name="Môn học yêu thích" id="Toán" value="Toán" checked>
+                <label for="Toán">Toán</label>
+                <input type="checkbox" name="Môn học yêu thích" id="Lập trình" value="Lập trình" checked>
+                <label for="Lập trình">Lập trình</label>
+                <input type="checkbox" name="Môn học yêu thích" id="Tiếng Anh" value="Tiếng Anh">
+                <label for="Tiếng Anh">Tiếng Anh</label>
+                <input type="checkbox" name="Môn học yêu thích" id="Vật lý" value="Vật lý">
+                <label for="Vật lý">Vật lý</label>
+            </p>
+            <p>
+                <label for="tiến độ học tập">Tiến độ học tập :</label>
+                <input type="range" name="tiến độ học tập" id="tiến độ học tập">
+            </p>
+            <p>
+                <label for="năm học ">Năm học thứ : </label>
+                <input type="number" name="năm học thứ" id="năm học " min="1" max="4" step="1" value="2">
+            </p>
+            <p>
+                <label for="Tìm kiếm khóa học ">Tìm kiếm khóa học :</label>
+                <input type="search" name="Tìm kiếm khóa học " id="Tìm kiếm khóa học " value="Khoa học máy tính">
+            </p>
+            <p>
+                <label for="Màu yêu thích">Màu yêu thích :</label>
+                <input type="color" name="Màu yêu thích" id="Màu yêu thích">
+            </p>
+            <p>
+                <input type="reset" value="Hủy">
+                <input type="reset" value="Làm mới">
+                <input type="submit" value="Gửi">
+            </p>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMO</title>
+</head>
+<body>
+    <h1>Đăng ký</h1>
+        <!-- type : kiểu dữ liệu VD : text, password, email, number
+        id : dùng để liên kết nhãn với label
+        placeholder : văn bản gợi ý trước khi nhập dữ liệu
+        name   : Định dạng cho dữ liệu gửi lên server (bắt buộc)-->
+
+
+    <!-- Nhập liệu văn bản
+     text : nhập văn bản trên cùng 1 dòng
+     password : nhập mật khẩu (ẩn ký tự)
+     email : nhập địa chỉ email
+     tel : nhập số điện thoại (không kiểm tra định dạng)
+     url : nhập địa chỉ website 
+     search : nhập từ khóa tìm kiếm -->
+    <form action="http://www.myserver.com" method="POST">
+        <label for="username">Username</label>
+        <input placeholder="Vu Xuan Bach" id="username" type="text" name="username"/> <br> 
+        <label for="email">Email</label>
+        <input placeholder="123456789" id="email" type="email" name="email"/>  <br>
+        <label for="password">Password</label>
+        <input placeholder="123456789" id="password" type="password" name="password"/>  <br>
+        <label for="tel">Phone</label>
+        <input placeholder="123456789" id="tel" type="tel" name="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>  <br>
+        <label for="website">Website</label>
+        <input type="url" name="website" id="website" placeholder="https://example.com"/> <br>
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search" placeholder="Tìm kiếm..."/> <br>
+        <button>Send</button>
+    </form>
+    <!-- Dữ liệu số và giá trị -->
+    <!-- 
+     number : nhập số nguyên hoặc số thập phân
+     range : Thanh trượt nhập số 
+     date : ngày 
+     month : tháng năm 
+     week : tuần trong năm
+     time : Nhập thời gian
+     datetime-local : ngày và giờ (không bao gồm múi giờ) -->
+
+    <form action="http://www.myserver.com" method="POST">
+        <label for="age">Age</label>
+        <input type="range" name="Age" id="age" placeholder="25" min="0" max="100" step="2"/> <br>
+
+        <label for="date">Date</label>
+        <input type="date" name="Date" id="date" /> <br>
+
+        <label for="month">Month</label>
+        <input type="month" name="Month" id="month" /> <br>
+
+        <label for="week">Week</label>
+        <input type="week" name="Week" id="week" /> <br>
+
+        <label for="time">Time</label>
+        <input type="time" name="time" id="time" /> <br>
+
+        <label for="datetime-local">Date</label>
+        <input type="datetime-local" name="Datetime_Local" id="datetime-local" /> <br>
+
+        <!-- radio : chọn một trong nhiều lựa chọn -->
+        <label >Giới tính</label> <br>
+        <input type="radio" name="giới tính" value="Nam">
+        <label for="">Nam</label>
+        <input type="radio" name="giới tính" value="Nữ">
+        <label for="">Nữ</label>
+        <input type="radio" name="giới tính" value="Không xác Định">
+        <label for="">Không xác Định</label> <br>
+
+        <!-- checkbox : chọn nhiều trong nhiều lựa chọn -->
+          <label >Giới tính</label> <br>
+        <input type="checkbox" name="giới tính" value="Nam">
+        <label for="">Nam</label>
+        <input type="checkbox" name="giới tính" value="Nữ">
+        <label for="">Nữ</label>
+        <input type="checkbox" name="giới tính" value="Không xác Định">
+        <label for="">Không xác Định</label> <br>
+
+
+
+        <!-- select , option , size , disabled , selected-->
+         <select size="4" name="ví dụ">
+            <option disabled value="đọc">đọc</option>
+            <option value="viết">viết</option>
+            <option selected value="nghe">nghe</option>
+            <option value="nói">nói</option>
+            <option value="thích">thích</option>
+         </select>
+        
+
+        <!-- Các nút điều khiển -->
+     <!-- 
+    button : nút bình thường
+    submit : nút gửi dữ liệu
+    reset : nút xóa dữ liệu đã nhập trong form
+     -->
+
+        <input type="button" value="Nút thường"/>
+        <input type="submit" value="Gửi dữ liệu"/>
+        <input type="reset" value="Xóa dữ liệu đã nhập"/>
+        <button>Send</button>
+    </form>
+
+
+    
+
+</body>
+</html>

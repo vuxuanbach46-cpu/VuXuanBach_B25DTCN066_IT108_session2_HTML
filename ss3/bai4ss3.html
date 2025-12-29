@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÀI 4</title>
+</head>
+<body>
+    <main>
+        <form action="http://wwww.myserver" method="post"> 
+            <table border="0">
+                <tr>
+                    <td><label for="fullname">Họ và tên :</label></td>
+                    <td><input type="text" name="Họ và tên" id="fullname"></td>
+                </tr>
+                <tr>
+                    <td><label for="ngày sinh">Ngày sinh :</label></td>
+                    <td><input type="date" name="Ngày sinh" id="ngày sinh"></td>
+                </tr>
+                <tr>
+                    <td><label for="giới tính">Giới tính :</label></td>
+                    <td><input type="radio" name="Giới tính" value="Nam">
+                        <label>Nam</label>
+                        <input type="radio" name="Giới tính" value="Nữ">
+                        <label>Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="CCCD">Số căn cước công dân :</label></td>
+                    <td><input type="number" name="Số căn cước công dân" id="CCCD"></td>
+                </tr>
+                <tr>
+                    <td><label for="ngày cấp">Ngày cấp :</label></td>
+                    <td><input type="date" name="Ngày cấp" id="ngày cấp"></td>
+                </tr>
+                <tr>
+                    <td><label for="nơi cấp">Nơi cấp :</label></td>
+                    <td><input type="text" name="Nơi cấp" id="nơi cấp"></td>
+                </tr>
+                <tr>
+                    <td><label for="sdt">Số điện thoại :</label></td>
+                    <td><input type="tel" name="Số điện thoại" id="sdt" pattern="^0[0-9]{9}$"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="email" name="Email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="Địa chỉ thường trú">Địa chỉ thường trú :</label></td>
+                    <td><textarea name="Địa chỉ thường trú" id="Địa chỉ thường trú"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="Địa chỉ tạm trú">Địa chỉ tạm trú :</label></td>
+                    <td><textarea name="Địa chỉ tạm trú" id="Địa chỉ tạm trú"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="loại CCCD">Loại căn cước công dân :</label></td>
+                    <td>
+                        <input type="radio" name="Loại căn cước công dân" value="Căn cước công dân mới">
+                        <label>Căn cước công dân mới</label>
+                        <input type="radio" name="Loại căn cước công dân" value="Căn cước công dân cũ">
+                        <label>Căn cước công dân cũ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dân tộc">Dân tộc :</label></td>
+                    <td><input type="text" name="Dân tộc" id="dân tộc"></td>
+                </tr>
+                <tr>
+                    <td><label for="tôn giáo">Tôn giáo :</label></td>
+                    <td><input type="text" name="Tôn giáo" id="tôn giáo"></td>
+                </tr>
+                <tr>
+                    <td><label for="quốc tịch">Quốc tịch :</label></td>
+                    <td><input  type="text" name="Quốc tịch" id="quốc tịch" value="Việt Nam" readonly></td>
+                </tr>
+                <tr>
+                    <td><label for="họ tên cha/mẹ">Họ tên cha/mẹ :</label></td>
+                    <td><input type="text" name="Họ tên cha/mẹ" id="họ tên cha/mẹ"></td>
+                </tr>
+                <tr>
+                    <td><label for="Số CMND/CCCD của cha mẹ :">Số CMND/CCCD của cha mẹ :</label></td>
+                    <td><input type="number" name="Số CMND/CCCD của cha mẹ" id="Số CMND/CCCD của cha mẹ"></td>
+                </tr>
+                <tr>
+                    <td><label for="tỉnh/thành phố">Tỉnh/Thành phố :</label></td>
+                    <td><select name="Tỉnh thành phố" id="tỉnh/thành phố">
+                        <option hidden>Chọn tỉnh/thành phố</option>
+                        <option value="Hà Nội">Hà Nội</option>
+                        <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                        <option value="Đà Nẵng">Đà Nẵng</option>
+                        <option value="Hải Phòng">Hải Phòng</option>
+                        <option value="Cần Thơ">Cần Thơ</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Gửi thông tin"></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+</body>
+</html>
