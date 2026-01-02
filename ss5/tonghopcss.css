@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(235, 245, 253);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: rgb(54, 140, 226);
+    color: aliceblue;
+}
+.color{
+    color: rgb(54, 140, 226);
+}
+.mầu{
+    color: rgb(54, 140, 226);
+}
+ul {
+  /* Dùng ký tự emoji răng làm dấu đầu dòng */
+  list-style-type: "🦷 "; 
+}
+.danhsach:hover {
+    color: rgb(54, 140, 226);
+    cursor: pointer;
+}
+#A {
+    padding-left: 80px;
+}
+#red{
+    color: brown;
+}
+footer{
+    text-align: center;
+    background-color: rgb(54, 140, 226);
+    color: white;
+}
+a:hover{
+    color: darkgray;
+}
