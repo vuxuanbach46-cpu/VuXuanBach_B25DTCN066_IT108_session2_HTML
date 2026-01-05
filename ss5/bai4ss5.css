@@ -4,8 +4,20 @@
 body {
     background-color: #f4f4f9;
 }
-h2 {
+header strong {
+    display: block;
     text-align: center;
-    color: #1e90ff;
     font-size: 25px;
+    color: rgb(20, 75, 224);
+}
+header {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+main Strong {
+    display: block;
+    text-align: center;
+    color: rgb(20, 75, 224);
+    font-size: 20px;
 }
