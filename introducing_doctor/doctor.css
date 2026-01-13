@@ -1,0 +1,37 @@
+body{
+    font-family: cursive;
+    color: #92400e ;
+    background-color:#fff7ed ;
+}
+h1{
+    text-align: center;
+    background-color: #fde68a;
+}
+article a {
+    font-weight: bold;
+    text-align: center;
+    background-color: #fed7aa ;
+}
+#lien_ket{
+    text-align: center;
+    background-color: #fed7aa ;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+section{
+    background-color: aliceblue;
+}
+
+footer{
+    background-color: #92400e;
+    text-align: center;
+    color: white;
+}
+main .mau {
+    background-color: white;
+}
+

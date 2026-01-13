@@ -1,0 +1,77 @@
+/* Thiết lập chung cho toàn bộ trang */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf5e6; /* Màu nền vàng kem nhạt */
+    color: #5d2e17; /* Màu chữ nâu đậm */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Tiêu đề và Menu */
+header {
+    background-color: #f7d794; /* Màu vàng đậm hơn cho tiêu đề */
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+nav {
+    background-color: #f3cfb3; /* Màu cam nhạt cho menu */
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5d2e17;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* Banner hình ảnh */
+.banner {
+    text-align: center;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.banner img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Phần nội dung */
+main {
+    max-width: 1000px;
+    margin: 0 auto; /* Căn giữa nội dung chính */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #8b4513;
+    border-bottom: 1px solid #f3cfb3;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+/* Footer (Chân trang) */
+footer {
+    background-color: #5d2e17;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
