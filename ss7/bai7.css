@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+    margin: auto;
+    width: 450px;
+    height: 550px;
+    border: 1px solid black;
+}
+h1{
+    color: rgb(97, 206, 170);
+    text-align: center;
+}
+main {
+    font-size: 20px;
+    margin-left: 10px;
+}
+label{
+    color: forestgreen;
+    font-weight: bold;
+}
+input { 
+    width: 98%;
+
+    margin-bottom: 10px
+}
+textarea{
+    margin-top: 10px;
+    width: 99%;
+    height: 70px;
+    margin-bottom: 10px
+}
+select{
+    width: 90%; 
+    margin-bottom: 10px
+}
+
+
+button{
+    margin-left: 10px;
+}
+button{
+    width: 96%;
+    border: none;
+    padding: 15px 0;
+    font-size: 14px;
+    background-color: rgb(47, 145, 112);
+}

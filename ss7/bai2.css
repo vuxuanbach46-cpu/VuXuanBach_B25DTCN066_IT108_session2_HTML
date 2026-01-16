@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#bang {
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    border: 2px solid #1eff29 ;
+    border-radius: 10px;
+}
+h1{
+    margin: 20px 20px 10px 20px;
+}
+#a {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans;
+}
+header{
+    background: linear-gradient(to right, #0b77e4,#0094FA);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    line-height: 2.5;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    min-height: 150px;
+}
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+header a {
+    text-decoration: none;
+    background-color: #40A1EE;
+    border-radius: 20px;
+    padding: 3px 20px;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+header a:hover {
+    transform: translateY(-5px);
+    background-color: #2d6591;
+}
+.cham{
+    background-color: #36A0F0;
+    padding: 190px;
+    color: white;
+    font-size: 40px;
+    line-height: 70px;
+}
+.section1 {
+    font-size: 20px;
+}
+.cham a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0px 26px;
+    font-weight: bold;
+    color: #2766CC;
+    font-size: 17px;
+    transition: 0.3s ease;
+}
+.cham a:hover {
+    box-shadow: 0 15px 15px rgba(105, 99, 99 , 0.5);
+    transform: translateY(-5px);
+
+}
+.bong {
+    text-shadow: 0 5px 10px rgba(105, 99, 99 , 0.5);
+    font-family: 'Times New Roman', Times, serif;
+}
+.bong_o{
+    box-shadow: 0 5px 10px rgba(105, 99, 99 , 0.5);
+}
+.section1 h2{
+    color: #0066CC;
+    padding-top: 80px;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 40px;
+}
+.section1 p{
+    width: 900px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+.o{
+    display: inline-block;
+    background-color: #F1F3F5;
+    padding: 90px 30px 30px 30px;
+    border-radius: 20px;
+    line-height: 1.8;
+    margin-right: 30px;
+    box-shadow: 0 5px 10px rgba(204, 196, 196, 0.3);
+    transition: 0.3s ease;
+}
+.o:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px rgba(204, 196, 196, 0.3);
+}
+.o h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.section3{
+    background-color: #EBF4FF;
+    height: 820px;
+}
+.section3 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 70px 0 30px 0;
+    color: #0066CC;
+}
+.section3 p{
+    opacity: 0.8;
+    font-size: 120%;
+    padding-bottom: 40px;
+}
+table{
+    border-radius: 20px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-spacing: 0;
+    box-shadow: 0 5px 5px 5px rgba(202, 198, 198, 0.1);
+    min-height: auto;
+                                                                        overflow: hidden;
+}
+table thead{
+                                        background: linear-gradient(to right, #0b77e4,#0094FA);
+    border-radius: 20px;
+    height: 64px;
+
+}
+table tr{
+    height: 58px;
+}
+.trai{
+    text-align: left;
+}
+.phai{
+    text-align: right;
+    padding-right: 20px;
+    color: #096BCE;
+    font-weight: bold;
+}
+thead{
+
+    color: white;
+}
+.p{
+    text-align: right;
+    padding: 20px;
+}
+tbody tr{
+    transition: 0.3s ease;
+}
+tbody tr:hover {
+  transform: scale(1.01);
+  background-color: #F8F9FA;
+}
+.h2 {
+    margin-top: 80px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+    color: #0066CC;
+}
+.o_vien {
+    display: inline-block;
+    width: 450px;
+    margin-right: 60px;
+    background-color: #EAEDF0;
+    border-left: 6px solid blue;
+    border-radius: 20px;
+    line-height: 40px;
+    margin: 20px;
+} 
+
+.o_vien h3 {
+    color: #0066CF;
+}
+
+footer{
+    background-color: #292929;
+    color: white;
+    padding: 40px 10@;
+}
+.footer{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+.footer1{
+    background-color: #0b77e4;
+    width: 30%;
+
+}
+.footer2{
+    display: inline-block;
+    background-color: #d71c1c;
+    width: 30%;
+}
+.b{
+    display: block;
+}
+.footer3{
+    width: 30%;
+}
+
+

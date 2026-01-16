@@ -1,0 +1,44 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+.bang {
+    border: 1px solid black;
+    width: 450px;
+    margin: 50px auto ;
+}
+
+.header{
+    display: inline-block;
+}
+
+span{
+    font-size: 30px;
+    margin-left: 10px;
+}
+header{
+    vertical-align: middle;
+    font-weight: bold;
+    color: orange;
+}
+img {
+    display: block;
+    width: 100%;
+    margin: 10px 0px 10px;
+}
+h2{
+    margin: 10px ;
+}
+h3{
+    margin: 10px;
+    color: aquamarine;
+}
+article{
+    opacity: 0.5;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

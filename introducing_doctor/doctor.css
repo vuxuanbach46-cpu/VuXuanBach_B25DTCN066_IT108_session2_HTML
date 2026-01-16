@@ -1,14 +1,13 @@
-body{
+*{
     font-family: cursive;
     color: #92400e ;
-    background-color:#fff7ed ;
+    background-color: #fff7ed  ;
 }
 h1{
     text-align: center;
     background-color: #fde68a;
 }
 article a {
-    font-weight: bold;
     text-align: center;
     background-color: #fed7aa ;
 }
@@ -16,22 +15,25 @@ article a {
     text-align: center;
     background-color: #fed7aa ;
 }
-
+article a:hover {
+    background-color: #fed7aa ;
+}
 img {
     display: block;
     margin: auto;
 }
-
-section{
+#Gioi_thieu {
     background-color: aliceblue;
 }
+div{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
 
 footer{
     background-color: #92400e;
     text-align: center;
-    color: white;
+    color: aliceblue;
 }
-main .mau {
-    background-color: white;
-}
-

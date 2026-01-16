@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(251, 249, 246);
+}
+.tong{
+    margin-top: 50px;
+    text-align: center;
+}
+.khoi {
+    display: inline-block;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    vertical-align: top;
+    transition: 0.4s ;
+}
+.khoi:hover {
+    transform: translateY(-10px) ;
+    box-shadow: 0 15px 30px rgba(40, 8, 249, 0.1);
+}
+h3{
+    color: aqua;
+}
