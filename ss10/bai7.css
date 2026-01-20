@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+header{
+    background-image: url("Gemini_Generated_Image_bmby3lbmby3lbmby.png");
+    background-size: cover;
+    background-position: center;
+    width: 1920px;
+    height: 600px;
+    color: white;
+    display: flex;
+    gap: 21px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.section1{
+    width: 1920px;
+    height: 750px;
+    background-color: #f8f5f0;
+}
+.o {
+    width: 1400px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+    padding-top: 60px;
+}
+.picture11 {
+    background-image: url("Luxury\ Dining\ Room\ \(1\).png");
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(143, 140, 140);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 30px 20px;
+}
+.picture12 {
+    background-image: url("Elegant\ Table.png");
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(143, 140, 140);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 30px 20px;
+}
+.picture13 {
+    background-image: url("Gourmet\ Plating.png");
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(143, 140, 140);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 30px 20px;
+}
+.picture14 {
+    background-image: url("Fine\ Dining\ Dish.png");
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(143, 140, 140);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 30px 20px;
+}
+.picture15 {
+    background-image: url("Romantic\ Dinner.png");
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(143, 140, 140);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 30px 20px;
+}
+.picture16 {
+    background-image: url("Open\ Kitchen.png");
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(143, 140, 140);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 30px 20px;
+}
+.picture17 {
+    background-image: url("Gourmet\ Dessert.png");
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(143, 140, 140);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 30px 20px;
+}
+
+.section2{
+    background-color:#8b0000;
+    width: 1920px;
+    height: 481px;
+    color: white;
+}
+.section2 h2 {
+    padding: 81px 693px;
+    font-size: 45px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+.form {
+    width: 1000px;
+    height: 126px;
+    margin: auto;
+}
+form input {
+    text-align: left;
+    width: 30%;
+    height: 55px;
+    border-radius: 15px;
+}
+button {
+    width: 300px;
+    height: 55px;
+    background-color: white;
+    color: #8b0000;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 1920px;
+    height: 98px;
+    line-height: 98px;
+}
