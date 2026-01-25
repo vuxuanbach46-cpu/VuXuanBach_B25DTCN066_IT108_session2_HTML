@@ -1,0 +1,124 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #fcfcfc;
+color: #333;
+}
+.course-card {
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  transition: transform 0.3s;
+  height: 100%;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  position: relative;
+}
+
+.badge-status {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 12px;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.status-ongoing { background-color: #1a73e8; }
+.status-completed { background-color: #00c853; }
+.status-saved { background-color: #ffab00; }
+
+.category-tag {
+  font-size: 0.75rem;
+  background: #f0f2ff;
+  color: #5d5fef;
+  padding: 4px 12px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.course-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.teacher-name {
+  font-size: 0.85rem;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.progress-container {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.custom-progress {
+  height: 6px;
+  border-radius: 3px;
+  background-color: #e9ecef;
+  margin: 10px 0;
+}
+
+.custom-progress-bar {
+  background-color: #5d5fef;
+  border-radius: 3px;
+}
+
+.price-current {
+  color: #5d5fef;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.price-old {
+  text-decoration: line-through;
+  color: #bbb;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+
+.btn-action {
+  background-color: #5d5fef;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  flex-grow: 1;
+}
+
+.btn-outline-action {
+  background-color: #fff;
+  color: #5d5fef;
+  border: 1px solid #5d5fef;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  flex-grow: 1;
+}
+
+.icon-btn {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}

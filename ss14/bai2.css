@@ -1,0 +1,130 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background: linear-gradient(to bottom,#1a1919 ,#746f6f );
+  color: white;
+  padding: 10px 0;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: #ccc;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.navbar ul li a.active, .navbar ul li a:hover {
+  color: #fff;
+}
+
+.btn-login-top {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.intro {
+  margin: 30px 0;
+  border-top: 1px dotted #ccc;
+  padding-top: 20px;
+}
+
+.intro h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.registration-form h2, .recommendations h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  width: 100px;
+  font-weight: bold;
+}
+
+.form-group input {
+  flex: 1;
+  padding: 12px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-submit {
+  background-color: #666;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.movie-card img {
+  width: 244px;
+  height: 159.01px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: block;
+}
+.section2 {
+  width: 1443px;
+  height: 315px;
+}
+

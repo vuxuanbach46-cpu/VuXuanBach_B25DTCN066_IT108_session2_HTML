@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  max-width: 1920px;
+  height: 120px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lien {
+  color: #00E92D;
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: none;
+  margin-right: 50px;
+}
+.lien-ket {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: none;
+  margin-right: 50px;
+
+}
+.lien-ket-cuoi {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 40px;
+  text-decoration: none;
+}
+
